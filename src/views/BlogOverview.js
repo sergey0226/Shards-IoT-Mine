@@ -105,7 +105,7 @@ BlogOverview.defaultProps = {
     {
       label: "UV Index",
       value: "182",
-      unit: "aaa",
+      unit: "_",
       increase: true,
       buttonIcon: "local_drink",
       chartLabels: [null, null, null, null, null, null, null],

@@ -134,7 +134,7 @@ class SmallStats extends React.Component {
             <div className={dataFieldClasses}>
               <span className={labelClasses}>{label}</span>
               <h6 className={valueClasses}>{value}</h6>
-              <span className={unitClasses}  style={unit==='aaa'?{color: "transparent"}:{}}>{unit}</span>
+              <span className={unitClasses}  style={unit==='_'?{color: "transparent"}:{}}>{unit}</span>
             </div>
           </div>
           <canvas
